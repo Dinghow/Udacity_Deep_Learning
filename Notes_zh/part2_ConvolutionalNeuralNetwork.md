@@ -6,7 +6,7 @@
 
 ### 统计不变性(Statistical Invariants)
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-9.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-9.png)
 
 当两种输入可以获得同样的信息（如猫的位置与分类并没有关系），则应该共享权重，并利用这些输入来训练对应的同一权重
 
@@ -18,15 +18,15 @@
 
 ### 卷积网络基本概念
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-10.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-10.png)
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-11.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-11.png)
 
 通过卷积操作逐步挤压空间维度，增大深度，通过深度信息来表达复杂的语义，如下图将3个特征图映射到了K个输出深度。
 
 使用k个filter来进行卷积，输出深度就为k，fliter的通道数必须和特征图的通道数相等，下列图(From CS231n)就解释了这个过程：
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-14.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-14.png)
 
 > **DIP（数字图像处理）相关：**
 >
@@ -34,7 +34,7 @@
 
 
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-12.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-12.png)
 
 > **空间排列（Spatial arrangement）**
 >
@@ -70,7 +70,7 @@
 
 常见的卷积网络设计：
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-13.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-13.png)
 
 #### 2. 1*1卷积
 
@@ -83,6 +83,6 @@
 
 #### 3. Inception结构
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-15.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-15.png)
 
 使用多种结构的卷积核并将卷积结果进行复合

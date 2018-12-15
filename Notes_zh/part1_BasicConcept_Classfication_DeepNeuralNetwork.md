@@ -65,7 +65,7 @@ at random. The advantage would be due to a better optimization.
 
 - 线性模型参数的计算
 
-  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-8.png)
+  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-8.png)
 
   线性模型 $Y = WX + B$
 
@@ -78,13 +78,13 @@ at random. The advantage would be due to a better optimization.
 
 - 多项式逻辑回归分类法
 
-  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-1.png)
+  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-1.png)
 
 - 独热编码
 
 交叉熵(Cross-Entropy)：
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-2.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-2.png)
 
 - 模型性能评估：
 
@@ -118,7 +118,7 @@ at random. The advantage would be due to a better optimization.
 
   - SGD中的超参数：
 
-  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-3.png)
+  ![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-3.png)
 
 
 
@@ -126,7 +126,7 @@ at random. The advantage would be due to a better optimization.
 
 #### 隐藏层
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-4.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-4.png)
 
 **注意**： 以上描述的是一个“两层”神经网络
 
@@ -135,7 +135,7 @@ at random. The advantage would be due to a better optimization.
 
 #### 反向传播
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-5.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-5.png)
 
 #### 正则化
 
@@ -143,8 +143,8 @@ at random. The advantage would be due to a better optimization.
 
 #### Dropout
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-6.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-6.png)
 
-![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/note/img/dl-7.png)
+![](https://github.com/Dinghow/Udacity_Deep_Learning/raw/master/Notes_zh/img/dl-7.png)
 
 通过随机选择舍弃掉相同量的激活值（并对保留值进行放大），使得神经网络不再能依赖于任何给定的激活值，因而能更好地防止overfitting
